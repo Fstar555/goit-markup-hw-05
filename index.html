@@ -430,8 +430,30 @@
             </li>
           </ul>
         </div>
+        <div class="footer-box-form">
+          <p class="input-footer-title">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label">
+              <input
+                type="email"
+                placeholder="E-mail"
+                class="footer-input"
+                name="footer-email"
+              />
+            </label>
+            <button type="submit" class="footer-btn">
+              Subscribe
+              <svg class="footer__btn-svg" width="24" height="24">
+                <use href="./images/icons.svg#tg"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <!--Modal-->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal modal-container">
         <button type="button" class="modal-btn" data-modal-close>
@@ -487,6 +509,25 @@
               name="user-comment"
             ></textarea>
           </div>
+          <div class="check-box">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="policy"
+              class="privacy-checkbox visually-hidden"
+              value="true"
+            />
+            <label for="user-privacy" class="privacy-label">
+              <span class="check-box-svg">
+                <svg class="checkbox-svg" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="modal-button" type="submit">Send</button>
         </form>
       </div>
     </div>
