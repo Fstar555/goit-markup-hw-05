@@ -989,7 +989,7 @@ img {
   margin-left: 3px;
 }
 
-.check-box-svg {
+.checkbox-box-svg {
   margin-right: 8px;
   width: 16px;
   height: 16px;
@@ -1002,6 +1002,13 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.privacy-link {
+  color: var(--primary-brand-color);
+  text-decoration: underline;
+  display: inline-block;
+  margin-left: 3px;
 }
 
 .modal-button {
