@@ -971,7 +971,7 @@ img {
 .privacy-checkbox:checked + .privacy-label > .checkbox-box-svg {
   background-color: var(--pressed-background-state-color);
   border: none;
-  fill: var(--accent-background-color);
+  fill: var(--third-title-color);
 }
 
 .privacy-label {
