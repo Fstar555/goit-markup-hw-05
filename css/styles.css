@@ -28,7 +28,7 @@ p {
 
 ul {
   list-style-type: none;
-  margin-top: o;
+  margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
@@ -175,7 +175,6 @@ img {
 .container-hero {
   display: flex;
   flex-direction: column;
-  padding: 0 316px;
 }
 
 .hero {
@@ -550,6 +549,10 @@ img {
 .social-footer-link:hover,
 .social-footer-link:focus {
   background-color: #31d0aa;
+}
+
+.social-footer-box {
+  margin-right: 80px;
 }
 
 .input-footer-title {
